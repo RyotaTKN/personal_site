@@ -22,6 +22,8 @@ title: Ryota Takano
 <img src="pic/osf.png" width="40px" height="40px"> 
 <a href="https://github.com/RyotaTKN">
 <img src="pic/gh.jpg" width="40px" height="40px"> 
+<a href=https://drive.google.com/file/d/1beMi4sr4bpTMRckQKzdkUq6yQqEHUTuy/view?usp=sharing">
+<img src="pic/cv.png" width="40px" height="40px"> 
 </a>
 </p>
 
