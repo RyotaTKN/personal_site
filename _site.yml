@@ -17,7 +17,8 @@ output:
     toc_float: 
       collapse: false
     df_print: "kable"
-    include:
+    includes:
+      in_header: GA_Script.html
       after_body: 
     css: a_style.css
 output_dir: "docs"
