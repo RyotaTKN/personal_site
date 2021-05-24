@@ -61,7 +61,7 @@ title: Ryota Takano
 #### Intergroup relations, Collective behavior, Emotion, Empathy, Neuroimaging (fMRI), Physical Responses (Pupil dilation, SCR)
 <br>
 
-## **Skills**
+## **SKILLS**
 
-#### R, jsPsych, Qualtrics, MatLab, Psychopy, SPSS, JASP, etc.
+#### R, jsPsych (HTML, Javascript), Qualtrics, MatLab, Psychopy (Python), SPSS, JASP, etc.
 

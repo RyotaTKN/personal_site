@@ -19,6 +19,6 @@ output:
     df_print: "kable"
     includes:
       in_header: GA_Script.html
-      after_body: 
+      after_body: footer.html
     css: a_style.css
 output_dir: "docs"
