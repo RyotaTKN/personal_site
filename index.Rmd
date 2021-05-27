@@ -63,5 +63,5 @@ title: Ryota Takano
 
 ## **SKILLS**
 
-#### R, jsPsych (HTML, Javascript), Qualtrics, MatLab, Psychopy (Python), SPSS, JASP, etc.
+#### R, jsPsych (HTML, Javascript, CSS), Qualtrics, MatLab, Psychopy (Python), SPSS, JASP, etc.
 
