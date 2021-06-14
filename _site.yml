@@ -8,6 +8,14 @@ navbar:
       href: works.html
     - text: "Links"
       href: link.html
+  right:
+    - text: "Japanese (日本語)"
+      href: "https://ryotatkn.github.io/RyotawebE/" 
+      id: "navbarDropdownMenuLink"
+      role: "button" 
+      data-toggle: "dropdown" 
+      aria-haspopup: "true" 
+      aria-expanded: "false"
 
 output:
   html_document:
