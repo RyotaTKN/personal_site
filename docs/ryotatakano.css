@@ -11,22 +11,6 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-@media screen and (max-width: 750px) {
-    img.alignleft,
-    .wp-caption.alignleft {
-        float: none;
-    }
-    img.alignright,
-    .wp-caption.alignright {
-        float: none;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    img { max-width: 100%; }
-}
-
-
 /*
  * Base structure
  */
