@@ -11,6 +11,15 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+@media (min-width:768px) {
+  .box {
+    flex-direction: column;
+  }
+  .box:nth-child(even) {
+    flex-direction: column;
+  }
+}
+
 /*
  * Base structure
  */
