@@ -40,6 +40,34 @@
           font-size: 3.0rem;
         }
       }
+      
+      @media (max-width:768px) {
+        .box {
+          flex-direction: column;
+        }
+        .box:nth-child(even) {
+          flex-direction: column;
+        }
+        .text {
+          text-align: center;
+        }
+        .box:nth-child(even) .text {
+          text-align: center;
+        }
+        .pict {
+          width:100%;
+          margin-left: 0;
+          text-align: center;
+        }
+        .box:nth-child(even) .pict {
+          margin-left: 0;
+          margin-right: 0%;
+        }
+        .pict img {
+          width:50%;
+          height:auto;
+        }
+      }
     </style>
 
     
@@ -69,8 +97,8 @@
   </header>
 
   
-    <div class="d-flex align-items-start">
-      <img class="pict" src="pic/pic3.png" style="width:234px; height:300px">
+    <div class="pict d-flex align-items-start">
+      <img src="pic/pic3.png" style="width:234px; height:300px">
       <div class = "text ms-3 align-self-start">
         <h2 class = "text mt-3 p-2 bd-highlight" style="border-bottom: solid 1px;">
           ABOUT ME
