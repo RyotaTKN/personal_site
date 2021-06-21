@@ -1,0 +1,88 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  font-size: 1.1rem;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 48em;
+}
+
+footer {
+  border-top: solid 0.8px;
+  font-size: 0.8rem;
+}
+
+ul li, ol li {
+  border-left: solid 6px #3990d6;/*左側の線*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding-left: 2em;
+  list-style-type: none!important;/*ポチ消す*/
+  text-indent: -1em; 
+}
+
+div.left {
+  text-align: left; 
+}
+
+a {
+  color:#6ebaf8;
+  text-decoration:none;
+  }
+
+
+a:visited {
+  color:#6ebaf8;
+  text-decoration:none;
+  }
+
+a:hover {
+  color:#3f82b9;
+  text-decoration:none;
+  }
+
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
