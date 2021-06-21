@@ -11,12 +11,31 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
   .box {
     flex-direction: column;
   }
   .box:nth-child(even) {
     flex-direction: column;
+  }
+  .text {
+    text-align: center;
+  }
+  .box:nth-child(even) .text {
+    text-align: center;
+  }
+  .pict {
+    width:100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .box:nth-child(even) .pict {
+    margin-left: 0;
+    margin-right: 0%;
+  }
+  .pict img {
+    width:50%;
+    height:auto;
   }
 }
 
